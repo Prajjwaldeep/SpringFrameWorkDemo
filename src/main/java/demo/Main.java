@@ -12,7 +12,7 @@ public class Main {
         ApplicationContext context=new AnnotationConfigApplicationContext(BeanConfig.class);
 
 
-        Staff staff=context.getBean(Nurse.class);
+        Staff staff=context.getBean(Doctor.class);
         staff.assist();
     }
 }
