@@ -9,9 +9,4 @@ import org.springframework.stereotype.Component;
 @ComponentScan(basePackages = "demo")
 public class BeanConfig {
 
-
-    @Bean
-    public Doctor doctor(){
-        return new Doctor();
-    }
 }
